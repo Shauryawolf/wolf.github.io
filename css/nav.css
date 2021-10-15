@@ -1,0 +1,109 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');</style>
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.logo {
+    margin: 8px -59px;
+    width: 50px;
+    height: 8vh;
+    border: solid white 0.2px;
+    border-radius: 25px;
+}
+
+
+body {
+    margin: 0;
+    background: #222 ;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #55d6aa;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear:  both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li {
+    /*float: left;*/
+    display: inline-block;
+    margin-left: 70px;
+    padding: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a :hover{
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 74%;
+    background-color: #444;
+    top: 0px;
+    width: 0%;
+    position: absolute;
+
+    transition: ease-in-out 300ms;
+}
+
+nav a:hover::before {
+    width: 74%;
+
+}
+
+.button {
+    cursor: pointer;
+    margin: 228px 622px;
+    border-radius: 24px;
+    font-family: 'Roboto', sans-serif;
+    border: solid white;
+    background: transparent;
+     color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 16px; */
+    font-size: 24px;
+  }
+  
+  a:hover {
+    border-color: white;
+    border-radius: 24px;
+    color: white;
+  }
+  
